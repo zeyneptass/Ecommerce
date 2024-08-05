@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using DataAccess.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +10,11 @@ namespace Business.Concrete
 {
     public class CategoryManager : ICategoryService
     {
+        ICategoryDal _categoryDal;
+
+        public CategoryManager(ICategoryDal categoryDal)
+        {
+            _categoryDal = categoryDal;
+        }
     }
 }
