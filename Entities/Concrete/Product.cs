@@ -19,6 +19,7 @@ namespace Entities.Concrete
         // Navigation Properties
         public Category Category { get; set; }
         public ICollection<ProductImage> ProductImages { get; set; }
+        public ICollection<OrderItem> OrderItems { get; set; }
     }
 
 }

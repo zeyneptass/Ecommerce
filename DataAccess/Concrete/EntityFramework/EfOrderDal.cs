@@ -9,11 +9,6 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfOrderDal : IOrderDal
     {
-        IOrderDal _orderDal;
-
-        public EfOrderDal(IOrderDal orderDal)
-        {
-            _orderDal = orderDal;
-        }
+        
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public interface EfCartItemDal : ICartItemDal
+    public class EfCartItemDal : ICartItemDal
     {
     }
 }
