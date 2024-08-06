@@ -14,6 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
         {
             optionsBuilder.UseSqlServer(@"Server=ZEYNEP\SQLEXPRESS01;Database=DbEcommerce;Integrated Security=True;TrustServerCertificate=True;");
         }
+
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductImage> ProductImages { get; set; }
@@ -40,15 +41,19 @@ namespace DataAccess.Concrete.EntityFramework
                 .HasMany(p => p.OrderItems)
                 .WithOne(oi => oi.Product)
                 .HasForeignKey(oi => oi.ProductID);
+
             modelBuilder.Entity<Order>()
-          .HasMany(o => o.OrderItems)
-          .WithOne(oi => oi.Order)
-          .HasForeignKey(oi => oi.OrderID);
+                .HasMany(o => o.OrderItems)
+                .WithOne(oi => oi.Order)
+                .HasForeignKey(oi => oi.OrderID);
 
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.ShippingInfo)
                 .WithOne(si => si.Order)
                 .HasForeignKey<ShippingInfo>(si => si.OrderID);
+
+            // HasNoKey metodunu kaldırıyoruz
         }
     }
 }
+
