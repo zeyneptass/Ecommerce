@@ -19,6 +19,11 @@ namespace Business.Concrete
             _shippingInfoDal = shippingInfoDal;
         }
 
+        public void AddShippingInfo(ShippingInfo shippingInfo)
+        {
+            _shippingInfoDal.Add(shippingInfo);
+        }
+
         public List<ShippingInfo> GetAll()
         {
             return _shippingInfoDal.GetAll();

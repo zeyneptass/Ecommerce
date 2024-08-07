@@ -10,5 +10,6 @@ namespace Business.Abstract
     public interface IShippingInfoService
     {
         List<ShippingInfo> GetAll();
+        void AddShippingInfo (ShippingInfo shippingInfo);
     }
 }

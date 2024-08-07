@@ -4,7 +4,8 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 
-GetAllProducts();
+#region GetAllDatas
+//GetAllProducts();
 static void GetAllProducts()
 {
     ProductManager productManager = new ProductManager(new EfProductDal());
@@ -16,7 +17,7 @@ static void GetAllProducts()
     }
 }
 
-GetAllShippingInfos();
+//GetAllShippingInfos();
 
 static void GetAllShippingInfos()
 {
@@ -26,7 +27,8 @@ static void GetAllShippingInfos()
         Console.WriteLine(shippingInfo.Carrier);
     }
 }
-GetAllOrders();
+
+//GetAllOrders();
 
 static void GetAllOrders()
 {
@@ -37,7 +39,7 @@ static void GetAllOrders()
     }
 }
 
-GetAllCategories();
+//GetAllCategories();
 
 static void GetAllCategories()
 {
@@ -47,4 +49,4 @@ static void GetAllCategories()
         Console.WriteLine(category.CategoryName);
     }
 }
-
+#endregion
