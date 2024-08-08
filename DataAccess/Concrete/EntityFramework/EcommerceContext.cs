@@ -27,10 +27,10 @@ namespace DataAccess.Concrete.EntityFramework
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Category>()
-                .HasMany(c => c.Products)
-                .WithOne(p => p.Category)
-                .HasForeignKey(p => p.CategoryID);
+            //modelBuilder.Entity<Category>()
+            //    .HasMany(c => c.Products)
+            //    .WithOne(p => p.Category)
+            //    .HasForeignKey(p => p.CategoryID);
 
             modelBuilder.Entity<Product>()
                 .HasMany(p => p.ProductImages)

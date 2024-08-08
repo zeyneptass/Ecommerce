@@ -13,8 +13,8 @@ namespace Entities.Concrete
         public string CategoryName { get; set; }
         public string Description { get; set; }
 
-        // Navigation Property
-        public ICollection<Product> Products { get; set; }
+        //// Navigation Property
+        //public ICollection<Product> Products { get; set; }
     }
 
 }

@@ -27,25 +27,33 @@ namespace WebAPI.Controllers
             return result;
             
         }
+
+        // https://localhost:7167/api/Categories/addcategory 
+
         [HttpPost("addcategory")]
         public IActionResult Add(Category category)
         {
             _categoryService.Add(category);
-            return Ok();  // 200 OK ile döner
+            return Ok();  // 200 OK
         }
+
+        // https://localhost:7167/api/Categories/getallcategories 
 
         [HttpPut("updatecategory")]
         public IActionResult Update(Category category)
         {
             _categoryService.Update(category);
-            return Ok();  // 200 OK ile döner
+            return Ok();  // 200 OK
         }
+
+        // https://localhost:7167/api/Categories/deletecategory/id 
+
         [HttpDelete("deletecategory/{id}")]
         public IActionResult Delete(int id)
         {
             var category = new Category { CategoryID = id };
             _categoryService.Delete(category);
-            return Ok();  // 200 OK ile döner
+            return Ok();  // 200 OK 
         }
     }
 }
