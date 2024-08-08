@@ -40,7 +40,7 @@ namespace Business.Concrete
         {
             foreach (var orderItem in order.OrderItems)
             {
-                var product = _productService.GetAll().FirstOrDefault(p => p.ProductID == orderItem.ProductID);
+                var product = _productService.GetAllProducts().FirstOrDefault(p => p.ProductID == orderItem.ProductID);
                 if (product != null)
                 {
                     var newStockQuantity = product.StockQuantity - orderItem.Quantity;

@@ -16,10 +16,10 @@ namespace Entities.Concrete
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
 
-        // Navigation Properties
-        public Category Category { get; set; }
-        public ICollection<ProductImage> ProductImages { get; set; }
-        public ICollection<OrderItem> OrderItems { get; set; }
+        //// Navigation Properties
+        //public Category Category { get; set; }
+        //public ICollection<ProductImage> ProductImages { get; set; }
+        //public ICollection<OrderItem> OrderItems { get; set; }
     }
 
 }

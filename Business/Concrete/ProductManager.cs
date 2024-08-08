@@ -27,7 +27,7 @@ namespace Business.Concrete
         {
             _productDal.Delete(product);
         }
-        public List<Product> GetAll()
+        public List<Product> GetAllProducts()
         {
             return _productDal.GetAll();
         }

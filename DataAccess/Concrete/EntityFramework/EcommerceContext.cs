@@ -32,15 +32,15 @@ namespace DataAccess.Concrete.EntityFramework
             //    .WithOne(p => p.Category)
             //    .HasForeignKey(p => p.CategoryID);
 
-            modelBuilder.Entity<Product>()
-                .HasMany(p => p.ProductImages)
-                .WithOne(pi => pi.Product)
-                .HasForeignKey(pi => pi.ProductID);
+            //modelBuilder.Entity<Product>()
+            //    .HasMany(p => p.ProductImages)
+            //    .WithOne(pi => pi.Product)
+            //    .HasForeignKey(pi => pi.ProductID);
 
-            modelBuilder.Entity<Product>()
-                .HasMany(p => p.OrderItems)
-                .WithOne(oi => oi.Product)
-                .HasForeignKey(oi => oi.ProductID);
+            //modelBuilder.Entity<Product>()
+            //    .HasMany(p => p.OrderItems)
+            //    .WithOne(oi => oi.Product)
+            //    .HasForeignKey(oi => oi.ProductID);
 
             modelBuilder.Entity<Order>()
                 .HasMany(o => o.OrderItems)
