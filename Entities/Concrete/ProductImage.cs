@@ -14,9 +14,6 @@ namespace Entities.Concrete
         public int ImageID { get; set; }
         public int ProductID { get; set; }
         public string ImagePath { get; set; }
-
-        //Navigation Property
-        public Product Product { get; set; }
     }
 
 }

@@ -9,8 +9,7 @@ namespace Business.Abstract
 {
     public interface IOrderService
     {
-        List<Order> GetAll();
+        List<Order> GetAllOrders();
         void Add(Order order);
-        void UpdateStockAfterOrder(Order order);
     }
 }

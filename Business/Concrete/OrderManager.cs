@@ -1,6 +1,5 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
-using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,47 +9,35 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class OrderManager:IOrderService
+    public class OrderManager : IOrderService
     {
         IOrderDal _orderDal;
-        IProductService _productService;
+        IOrderItemService _orderItemService;
 
+        public OrderManager(IOrderDal orderDal, IOrderItemService orderItemService)
+        {
+            _orderDal = orderDal;
+            _orderItemService = orderItemService;
+        }
         public OrderManager(IOrderDal orderDal)
         {
             _orderDal = orderDal;
-        }
-        public OrderManager(IOrderDal orderDal, IProductService productService)
-        {
-            _orderDal = orderDal;
-            _productService = productService;
         }
 
         public void Add(Order order)
         {
             _orderDal.Add(order);
-            UpdateStockAfterOrder(order);
-        }
 
-        public List<Order> GetAll()
-        {
-            return _orderDal.GetAll();
-        }
-
-        public void UpdateStockAfterOrder(Order order)
-        {
+            // Iterate through OrderItems and update stock for each
             foreach (var orderItem in order.OrderItems)
             {
-                var product = _productService.GetAllProducts().FirstOrDefault(p => p.ProductID == orderItem.ProductID);
-                if (product != null)
-                {
-                    var newStockQuantity = product.StockQuantity - orderItem.Quantity;
-                    _productService.UpdateStockQuantity(orderItem.ProductID, newStockQuantity);
-                }
-                else
-                {
-                    throw new Exception("Product is not found.");
-                }
+                _orderItemService.UpdateStockAfterOrder(orderItem);
             }
+        }
+
+        public List<Order> GetAllOrders()
+        {
+            return _orderDal.GetAll();
         }
     }
 }

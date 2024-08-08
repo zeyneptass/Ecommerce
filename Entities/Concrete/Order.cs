@@ -17,9 +17,8 @@ namespace Entities.Concrete
         public string ShippingCity { get; set; }
         public string ShippingCountry { get; set; }
 
-        // Navigation Properties
-        public ICollection<OrderItem> OrderItems { get; set; }
-        public ShippingInfo ShippingInfo { get; set; }
+        public List<OrderItem> OrderItems { get; set; }
+
     }
 
 }

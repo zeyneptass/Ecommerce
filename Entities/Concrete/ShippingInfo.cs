@@ -17,8 +17,6 @@ namespace Entities.Concrete
         public string Carrier { get; set; }
         public string TrackingNumber { get; set; }
 
-        // Navigation Property
-        public Order Order { get; set; }
     }
 
 }

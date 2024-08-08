@@ -13,9 +13,6 @@ namespace Entities.Concrete
         public int UserID { get; set; }
         public int ProductID { get; set; }
         public int Quantity { get; set; }
-
-        // Navigation Property
-        public Product Product { get; set; }
     }
 
 }

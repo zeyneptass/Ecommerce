@@ -12,9 +12,6 @@ namespace Entities.Concrete
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
         public string Description { get; set; }
-
-        //// Navigation Property
-        //public ICollection<Product> Products { get; set; }
     }
 
 }

@@ -32,6 +32,10 @@ builder.Services.AddSingleton<IProductImageService, ProductImageManager>();
 builder.Services.AddSingleton<IProductService, ProductManager>();
 builder.Services.AddSingleton<IShippingInfoService, ShippingInfoManager>();
 
+builder.Services.AddTransient<IOrderService, OrderManager>();
+builder.Services.AddTransient<IOrderItemService, OrderItemManager>();
+
+
 
 #endregion
 

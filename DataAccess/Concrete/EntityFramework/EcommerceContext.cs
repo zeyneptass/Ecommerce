@@ -42,15 +42,15 @@ namespace DataAccess.Concrete.EntityFramework
             //    .WithOne(oi => oi.Product)
             //    .HasForeignKey(oi => oi.ProductID);
 
-            modelBuilder.Entity<Order>()
-                .HasMany(o => o.OrderItems)
-                .WithOne(oi => oi.Order)
-                .HasForeignKey(oi => oi.OrderID);
+            //modelBuilder.Entity<Order>()
+            //    .HasMany(o => o.OrderItems)
+            //    .WithOne(oi => oi.Order)
+            //    .HasForeignKey(oi => oi.OrderID);
 
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.ShippingInfo)
-                .WithOne(si => si.Order)
-                .HasForeignKey<ShippingInfo>(si => si.OrderID);
+            //modelBuilder.Entity<Order>()
+            //    .HasOne(o => o.ShippingInfo)
+            //    .WithOne(si => si.Order)
+            //    .HasForeignKey<ShippingInfo>(si => si.OrderID);
 
             // HasNoKey metodunu kaldırıyoruz
         }
