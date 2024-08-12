@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -31,8 +32,8 @@ namespace Business.Concrete
             return _orderItemDal.GetAll();
         }
 
-        // Sipariş verdikten sonra ürün stok adedini günceller:
-        public void UpdateStockAfterOrder(OrderItem orderItem) 
+       // Sipariş verdikten sonra ürün stok adedini günceller:
+        public void UpdateStockAfterOrder(OrderItem orderItem)
         {
             var product = _productService.GetAllProducts().FirstOrDefault(p => p.ProductID == orderItem.ProductID);
             if (product != null)
@@ -46,6 +47,5 @@ namespace Business.Concrete
             }
         }
 
-     
     }
 }

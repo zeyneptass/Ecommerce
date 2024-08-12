@@ -293,6 +293,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebAPI.Controllers.ShippingInfosController",
+    "Method": "AddShippingInfo",
+    "RelativePath": "api/ShippingInfos/addshippinginfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shippingInfo",
+        "Type": "Entities.Concrete.ShippingInfo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ShippingInfosController",
+    "Method": "GetAll",
+    "RelativePath": "api/ShippingInfos/getshippinginfos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
