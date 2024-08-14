@@ -27,8 +27,6 @@ namespace Business.Concrete
         public void Add(Order order)
         {
             _orderDal.Add(order);
-
-            // Iterate through OrderItems and update stock for each
             foreach (var orderItem in order.OrderItems)
             {
                 _orderItemService.UpdateStockAfterOrder(orderItem);

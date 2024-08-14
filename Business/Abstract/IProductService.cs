@@ -14,6 +14,7 @@ namespace Business.Abstract
         void Update(Product product);
         void Delete(Product product);
         Product GetProductById(int id);
+        void DecreaseStock(int productId, int quantity);     
         void UpdateStockQuantity(int productId, int newStockQuantity);
        
     }

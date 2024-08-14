@@ -42,14 +42,16 @@ namespace WebAPI.Controllers
             return Ok(image);
         }
 
-        // POST: api/ProductImage/addproductimage
-        // https://localhost:7167/api/ProductImages/addproductimage 
+        //// POST: api/ProductImage/addproductimage
+        //// https://localhost:7167/api/ProductImages/addproductimage 
         [HttpPost("addproductimage")]
         public async Task<IActionResult> Add([FromBody] ProductImage productImage)
         {
             var addedImage = await _productImageService.AddAsync(productImage);
             return CreatedAtAction("GetById", new { imageId = addedImage.ImageID }, addedImage);
         }
+
+
 
         // PUT: api/ProductImage/updateproductimage/{imageId}
         // https://localhost:7167/api/ProductImages/updateproductimage/{imageId}

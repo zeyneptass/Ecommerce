@@ -23,6 +23,24 @@ namespace Business.Concrete
             _productDal.Add(product);
         }
 
+        public void DecreaseStock(int productId, int quantity)
+        {
+            var product = _productDal.Get(p => p.ProductID == productId);
+            if (product == null)
+            {
+                throw new Exception("Product is not found.");
+            }
+            if (product.StockQuantity >= quantity)
+            {
+                product.StockQuantity -= quantity;
+                _productDal.Update(product);
+            }
+            else
+            {
+                throw new Exception("Insufficient stock quantity.");
+            }
+        }
+
         public void Delete(Product product)
         {
             _productDal.Delete(product);
