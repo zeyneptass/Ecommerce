@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\webapi\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\concrete\\cartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\concrete\\cartitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\concrete\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\webapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D3D34326-AFD8-46EE-9F3D-5F32A74F512D}|Entities\\Entities.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\entities\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D34326-AFD8-46EE-9F3D-5F32A74F512D}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\abstract\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\abstract\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,16 +111,8 @@
       "RelativeMoniker": "D:0:0:{D3D34326-AFD8-46EE-9F3D-5F32A74F512D}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\shippinginfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\concrete\\orderitemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\business\\concrete\\shippinginfomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6646746-51B0-4041-838F-A412E21C6399}|Business\\Business.csproj|solutionrelative:business\\concrete\\shippinginfomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\webapi\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\orderitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DE93B47A-A555-442D-B8FC-4764D5FB169E}|WebAPI\\WebAPI.csproj|c:\\users\\zeyne\\onedrive\\masa\u00FCst\u00FC\\internstajprojesi\\eticaret\\webapi\\controllers\\shippinginfoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,63 +142,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartItemManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\CartItemManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\CartItemManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\CartItemManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\CartItemManager.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAAAI8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T10:20:42.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\CartItemsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CartItemsController.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\CartItemsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\CartItemsController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAAwFYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T23:31:41.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T14:23:55.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\OrderManager.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBQAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:49:07.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\CategoriesController.cs",
@@ -206,12 +154,11 @@
               "RelativeToolTip": "WebAPI\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T09:30:01.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T09:30:01.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IOrderService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IOrderService.cs",
@@ -224,7 +171,95 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IOrderItemService.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IOrderItemService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IOrderItemService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:50:02.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderItemManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderItemManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderItemManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderItemManager.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:49:08.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrderItemsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrderItemsController.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrderItemsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\OrderItemsController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T22:03:26.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartItemManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\CartItemManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\CartItemManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\CartItemManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\CartItemManager.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAAAI8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T10:20:42.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\OrderManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T21:49:07.486Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T14:23:55.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\CartItemsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\CartItemsController.cs",
+              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\CartItemsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\CartItemsController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAwFYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T23:31:41.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ICartItemService.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\ICartItemService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ICartItemService.cs",
@@ -232,12 +267,11 @@
               "RelativeToolTip": "Business\\Abstract\\ICartItemService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T14:12:32.557Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T14:12:32.557Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "CategoryManager.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\CategoryManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\CategoryManager.cs",
@@ -245,12 +279,11 @@
               "RelativeToolTip": "Business\\Concrete\\CategoryManager.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAmwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T12:25:42.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-13T12:25:42.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\OrderItem.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\OrderItem.cs",
@@ -258,12 +291,11 @@
               "RelativeToolTip": "Entities\\Concrete\\OrderItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:11:24.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:11:24.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\Order.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Order.cs",
@@ -271,25 +303,11 @@
               "RelativeToolTip": "Entities\\Concrete\\Order.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAIwBgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:01:42.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T22:01:42.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IOrderItemService.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IOrderItemService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IOrderItemService.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IOrderItemService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IOrderItemService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:50:02.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ICategoryService.cs",
@@ -297,12 +315,11 @@
               "RelativeToolTip": "Business\\Abstract\\ICategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T14:12:33.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-12T14:12:33.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\Category.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Category.cs",
@@ -314,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EfEntityRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Product.cs",
@@ -338,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "CartItem.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\CartItem.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\CartItem.cs",
@@ -350,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ProductImageManager.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\ProductImageManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\ProductImageManager.cs",
@@ -362,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "IProductImageService.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Abstract\\IProductImageService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IProductImageService.cs",
@@ -374,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IEntityRepository.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Core\\DataAccess\\IEntityRepository.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\ProductImage.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\ProductImage.cs",
@@ -398,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ProductImagesController.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\ProductImagesController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductImagesController.cs",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "EfCartItemDal.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\DataAccess\\Concrete\\EntityFramework\\EfCartItemDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfCartItemDal.cs",
@@ -422,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "EcommerceContext.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\DataAccess\\Concrete\\EntityFramework\\EcommerceContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EcommerceContext.cs",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "EfProductImageDal.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\DataAccess\\Concrete\\EntityFramework\\EfProductImageDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfProductImageDal.cs",
@@ -446,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ShippingInfo.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Entities\\Concrete\\ShippingInfo.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\ShippingInfo.cs",
@@ -458,19 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "OrderItemManager.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderItemManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\OrderItemManager.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\OrderItemManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\OrderItemManager.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAuwCAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T21:49:08.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ShippingInfoManager.cs",
               "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\Business\\Concrete\\ShippingInfoManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\ShippingInfoManager.cs",
@@ -479,18 +484,6 @@
               "ViewState": "AQIAAAQAAAAAAAAAAAAqwCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T14:19:03.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "OrderItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrderItemsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrderItemsController.cs",
-              "ToolTip": "C:\\Users\\zeyne\\OneDrive\\Masa\u00FCst\u00FC\\InternStajProjesi\\Eticaret\\WebAPI\\Controllers\\OrderItemsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\OrderItemsController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T22:03:26.157Z"
             },
             {
               "$type": "Document",

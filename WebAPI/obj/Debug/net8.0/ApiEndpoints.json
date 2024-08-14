@@ -225,22 +225,6 @@
     ]
   },
   {
-    "ContainingType": "WebAPI.Controllers.OrderItemsController",
-    "Method": "UpdateStockAfterOrder",
-    "RelativePath": "api/OrderItems/updatestock",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "orderItem",
-        "Type": "Entities.Concrete.OrderItem",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "WebAPI.Controllers.OrdersController",
     "Method": "AddNewOrder",
     "RelativePath": "api/Orders/addNewOrder",

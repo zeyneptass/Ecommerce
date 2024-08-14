@@ -10,6 +10,6 @@ namespace Business.Abstract
     public interface IOrderItemService
     {
         List<OrderItem> GetOrderItems();
-        void UpdateStockAfterOrder(OrderItem orderItem);
+        
     }
 }

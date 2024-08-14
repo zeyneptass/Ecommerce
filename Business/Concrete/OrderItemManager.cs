@@ -30,22 +30,6 @@ namespace Business.Concrete
         public List<OrderItem> GetOrderItems()
         {
             return _orderItemDal.GetAll();
-        }
-
-       // Sipariş verdikten sonra ürün stok adedini günceller:
-        public void UpdateStockAfterOrder(OrderItem orderItem)
-        {
-            var product = _productService.GetAllProducts().FirstOrDefault(p => p.ProductID == orderItem.ProductID);
-            if (product != null)
-            {
-                var newStockQuantity = product.StockQuantity - orderItem.Quantity;
-                _productService.UpdateStockQuantity(orderItem.ProductID, newStockQuantity);
-            }
-            else
-            {
-                throw new Exception("Product is not found.");
-            }
-        }
-
+        }     
     }
 }

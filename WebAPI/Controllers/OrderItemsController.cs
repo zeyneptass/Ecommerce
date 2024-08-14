@@ -21,12 +21,5 @@ namespace WebAPI.Controllers
             var result = _orderItemService.GetOrderItems();
             return result;
         }
-
-        [HttpPut("updatestock")]
-        public IActionResult UpdateStockAfterOrder(OrderItem orderItem)
-        {
-            _orderItemService.UpdateStockAfterOrder(orderItem);
-            return Ok();
-        }
     }
 }
