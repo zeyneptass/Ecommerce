@@ -16,17 +16,32 @@ namespace WebAPI.Controllers
             _orderService = orderService;
         }
 
-        [HttpGet("getallorders")]
-        public List<Order> GetAllOrders()
+        // https://localhost:7167/api/Orders/getAllOrders
+        [HttpGet("getAllOrders")]
+        public IActionResult GetAllOrders()
         {
             var result = _orderService.GetAllOrders();
-            return result;
-        }
-        [HttpPost("addorders")]
-        public IActionResult Add(Order order)
+            if (result != null)
+            {
+                return Ok(result);
+            }
+            return NotFound("Sipariş bulunamadı.");
+        } 
+
+        // Yeni bir sipariş ekler Orders veritabanına
+        // https://localhost:7167/api/Orders/addNewOrder
+        [HttpPost("addNewOrder")]
+        public IActionResult AddNewOrder(Order order)
         {
-            _orderService.Add(order);
-            return Ok();
+            try
+            {
+                _orderService.AddNewOrder(order);
+                return Ok("Yeni sipariş başarıyla eklendi.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
     }

@@ -10,6 +10,6 @@ namespace Business.Abstract
     public interface IOrderService
     {
         List<Order> GetAllOrders();
-        void Add(Order order);
+        void AddNewOrder(Order order);
     }
 }

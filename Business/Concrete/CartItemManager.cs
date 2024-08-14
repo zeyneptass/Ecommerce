@@ -13,11 +13,14 @@ namespace Business.Concrete
     {
         ICartItemDal _cartItemDal;
         IProductDal _productDal;
+        IOrderService _orderService;
 
-        public CartItemManager(ICartItemDal cartItemDal, IProductDal productDal)
+
+        public CartItemManager(ICartItemDal cartItemDal, IProductDal productDal, IOrderService orderService)
         {
             _cartItemDal = cartItemDal;
             _productDal = productDal;
+            _orderService = orderService;
         }
 
         public void AddProductToCart(int userId, int productId, int quantity)
@@ -40,7 +43,7 @@ namespace Business.Concrete
                 _cartItemDal.Add(newCartItem);
             }
 
-            DecreaseProductStock(productId, quantity);
+           // DecreaseProductStock(productId, quantity);
         }
 
         public void DecreaseCartItemQuantity(int cartItemId, int quantity = 1)
@@ -53,7 +56,7 @@ namespace Business.Concrete
                     cartItem.Quantity -= quantity;
                     _cartItemDal.Update(cartItem);
 
-                    IncreaseProductStock(cartItem.ProductID, quantity);
+                   // IncreaseProductStock(cartItem.ProductID, quantity);
                 }
                 else
                 {                    
@@ -100,7 +103,7 @@ namespace Business.Concrete
                         cartItem.Quantity += quantity;
                         _cartItemDal.Update(cartItem);
 
-                        DecreaseProductStock(cartItem.ProductID, quantity);
+                      //  DecreaseProductStock(cartItem.ProductID, quantity);
                     }
                     else
                     {
@@ -122,16 +125,70 @@ namespace Business.Concrete
                 var currentQuantity = cartItem.Quantity;
                 cartItem.Quantity = quantity;
                 _cartItemDal.Update(cartItem);
+            }
+            else
+            {
+                throw new Exception("Sepette böyle bir ürün bulunmamaktadır.");
+            }
+        }
 
-                var quantityDifference = currentQuantity - quantity;
+        public void ConfirmCart(int userId)
+        {
+            var cartItems = _cartItemDal.GetAll(c => c.UserID == userId).ToList();
 
-                if (quantityDifference > 0)
+            if (!cartItems.Any())
+            {
+                throw new Exception("Sepetinizde ürün bulunmamaktadır.");
+            }
+
+            var order = new Order
+            {
+                UserID = userId,
+                OrderDate = DateTime.Now,
+                TotalAmount = cartItems.Sum(c => c.Quantity * _productDal.Get(p => p.ProductID == c.ProductID).Price),
+                ShippingAddress = "Default Address", // Adresi burada güncelleyebilirsiniz
+                ShippingCity = "Default City",
+                ShippingCountry = "Default Country",
+                OrderItems = cartItems.Select(c => new OrderItem
                 {
-                    IncreaseProductStock(cartItem.ProductID, quantityDifference);
+                    ProductID = c.ProductID,
+                    Quantity = c.Quantity,
+                    UnitPrice = _productDal.Get(p => p.ProductID == c.ProductID).Price
+                }).ToList()
+            };
+
+            _orderService.AddNewOrder(order);
+
+            // Sepeti temizleme işlemi
+            foreach (var cartItem in cartItems)
+            {
+                _cartItemDal.Delete(cartItem);
+            }
+
+            // Stok güncellemelerini yap
+            UpdateStockAfterOrder(cartItems);
+        }
+
+        // (ConfirmCart metodundan) sepet onaylandıktan sonra stok miktarlarını güncelle:
+        private void UpdateStockAfterOrder(List<CartItem> cartItems)
+        {
+            foreach (var cartItem in cartItems)
+            {
+                var product = _productDal.Get(p => p.ProductID == cartItem.ProductID);
+                if (product != null)
+                {
+                    if (product.StockQuantity >= cartItem.Quantity)
+                    {
+                        DecreaseProductStock(cartItem.ProductID, cartItem.Quantity);
+                    }
+                    else
+                    {
+                        throw new Exception($"Ürün ID {cartItem.ProductID} için yeterli stok bulunmamaktadır.");
+                    }
                 }
-                else if (quantityDifference < 0)
+                else
                 {
-                    DecreaseProductStock(cartItem.ProductID, -quantityDifference);
+                    throw new Exception($"Ürün ID {cartItem.ProductID} bulunmamaktadır.");
                 }
             }
         }

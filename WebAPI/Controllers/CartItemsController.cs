@@ -81,5 +81,20 @@ namespace WebAPI.Controllers
             _cartItemService.DeleteProductFromCart(productId);
             return Ok("Ürün sepetten silindi.");
         }
+
+        // https://localhost:7167/api/CartItems/confirmCart
+        [HttpPost("confirmCart")]
+        public IActionResult ConfirmCart(int userId)
+        {
+            try
+            {
+                _cartItemService.ConfirmCart(userId);
+                return Ok("Sepet onaylandı ve sipariş oluşturuldu.");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

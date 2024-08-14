@@ -12,30 +12,20 @@ namespace Business.Concrete
     public class OrderManager : IOrderService
     {
         IOrderDal _orderDal;
-        IOrderItemService _orderItemService;
 
-        public OrderManager(IOrderDal orderDal, IOrderItemService orderItemService)
-        {
-            _orderDal = orderDal;
-            _orderItemService = orderItemService;
-        }
         public OrderManager(IOrderDal orderDal)
         {
             _orderDal = orderDal;
         }
 
-        public void Add(Order order)
+        public void AddNewOrder(Order order)
         {
             _orderDal.Add(order);
-            foreach (var orderItem in order.OrderItems)
-            {
-                _orderItemService.UpdateStockAfterOrder(orderItem);
-            }
         }
 
         public List<Order> GetAllOrders()
         {
-            return _orderDal.GetAll();
+            return _orderDal.GetAll().ToList();
         }
     }
 }

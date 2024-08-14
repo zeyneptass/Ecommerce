@@ -27,6 +27,22 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.CartItemsController",
+    "Method": "ConfirmCart",
+    "RelativePath": "api/CartItems/confirmCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.CartItemsController",
     "Method": "DecreaseCartItemQuantity",
     "RelativePath": "api/CartItems/decreaseCartItemQuantity",
     "HttpMethod": "PUT",
@@ -226,8 +242,8 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.OrdersController",
-    "Method": "Add",
-    "RelativePath": "api/Orders/addorders",
+    "Method": "AddNewOrder",
+    "RelativePath": "api/Orders/addNewOrder",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -243,22 +259,12 @@
   {
     "ContainingType": "WebAPI.Controllers.OrdersController",
     "Method": "GetAllOrders",
-    "RelativePath": "api/Orders/getallorders",
+    "RelativePath": "api/Orders/getAllOrders",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[Entities.Concrete.Order, Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WebAPI.Controllers.ProductImagesController",

@@ -15,5 +15,6 @@ namespace Business.Abstract
         void DeleteProductFromCart(int productId);
         void IncreaseCartItemQuantity(int cartItemId, int quantity);
         void DecreaseCartItemQuantity(int cartItemId, int quantity);
+        void ConfirmCart(int userId);
     }
 }
