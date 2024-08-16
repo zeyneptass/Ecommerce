@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+173b8c86b16aa84ca2f3a955d189418bb5868a1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a135a8e4b6156e325167448b3a36064d6a61021d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

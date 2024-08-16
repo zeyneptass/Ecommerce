@@ -1,5 +1,6 @@
 using Business.Abstract;
 using Business.Concrete;
+using Core.Services;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -35,9 +36,8 @@ builder.Services.AddSingleton<IShippingInfoService, ShippingInfoManager>();
 builder.Services.AddTransient<IOrderService, OrderManager>();
 builder.Services.AddTransient<IOrderItemService, OrderItemManager>();
 
-
-
 #endregion
+builder.Services.AddSingleton<RedisService>();
 
 var app = builder.Build();
 

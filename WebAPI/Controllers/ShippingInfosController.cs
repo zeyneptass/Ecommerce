@@ -16,19 +16,30 @@ namespace WebAPI.Controllers
             _shippingInfoService = shippingInfoService;
         }
 
+
+
+        // https://localhost:7167/api/ShippingInfo/getAll
         [HttpGet("getshippinginfos")]
         public IActionResult GetAll()
         {
-            var shippingInfos = _shippingInfoService.GetAll();
-            return Ok(shippingInfos);
+            var result = _shippingInfoService.GetAll();
+            if (result != null)
+            {
+                return Ok(result);
+            }
+            return NotFound();
         }
 
-        [HttpPost("addshippinginfo")]
-        public IActionResult AddShippingInfo(ShippingInfo shippingInfo)
+        // https://localhost:7167/api/ShippingInfo/addShippingInfo
+        [HttpPost("addShippingInfo")]
+        public IActionResult AddShippingInfo([FromBody] ShippingInfo shippingInfo)
         {
-            _shippingInfoService.AddShippingInfo(shippingInfo);
-           //  return CreatedAtAction("GetAll", new { }, shippingInfo);
-           return Ok();
+            if (shippingInfo != null)
+            {
+                _shippingInfoService.AddShippingInfo(shippingInfo);
+                return Ok("Shipping info eklendi.");
+            }
+            return BadRequest("Geçersiz shipping info.");
         }
     }
 }

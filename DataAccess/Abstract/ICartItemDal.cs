@@ -10,5 +10,6 @@ namespace DataAccess.Abstract
 {
     public interface ICartItemDal : IEntityRepository<CartItem>
     {
+
     }
 }

@@ -11,5 +11,6 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfCartItemDal : EfEntityRepositoryBase<CartItem,EcommerceContext> ,ICartItemDal
     {
+
     }
 }

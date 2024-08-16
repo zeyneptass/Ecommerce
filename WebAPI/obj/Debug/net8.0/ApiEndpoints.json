@@ -406,7 +406,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ShippingInfosController",
     "Method": "AddShippingInfo",
-    "RelativePath": "api/ShippingInfos/addshippinginfo",
+    "RelativePath": "api/ShippingInfos/addShippingInfo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

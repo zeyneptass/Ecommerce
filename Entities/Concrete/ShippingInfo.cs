@@ -16,5 +16,8 @@ namespace Entities.Concrete
         public DateTime ShippingDate { get; set; }
         public string Carrier { get; set; }
         public string TrackingNumber { get; set; }
+        public string Address { get; set; } 
+        public string City { get; set; } 
+        public string Country { get; set; } 
     }
 }

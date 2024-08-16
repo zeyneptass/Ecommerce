@@ -11,5 +11,6 @@ namespace Business.Abstract
     {
         List<ShippingInfo> GetAll();
         void AddShippingInfo (ShippingInfo shippingInfo);
+        
     }
 }
